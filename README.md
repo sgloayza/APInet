@@ -36,21 +36,3 @@ Para ejecutar y probar la API en tu máquina local, asegúrate de tener instalad
 
 ## Uso
 [Explicar cómo utilizar la API, incluyendo ejemplos de endpoints, parámetros y respuestas. Puedes incluir ejemplos de solicitudes y respuestas JSON si es necesario.]
-
-## Contribución
-¡Las contribuciones son bienvenidas! Si deseas mejorar esta API, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/mejora`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Agrega una mejora'`).
-4. Haz push a la rama (`git push origin feature/mejora`).
-5. Crea un nuevo Pull Request.
-
-## Soporte
-Para obtener ayuda o realizar preguntas, por favor contacta a [tu nombre o tu equipo] en [tu dirección de correo electrónico o enlace a tu sistema de seguimiento de problemas, si lo tienes].
-
-## Licencia
-Este proyecto está bajo [tu licencia, por ejemplo, MIT License]. Consulta el archivo `LICENSE` para más detalles.
-
----
-
-Asegúrate de reemplazar `[breve descripción de lo que hace la API]`, `[explicar la funcionalidad principal de la API en términos simples]`, `[tu nombre o tu equipo]`, `[tu dirección de correo electrónico o enlace a tu sistema de seguimiento de problemas]` y `[tu licencia, por ejemplo, MIT License]` con la información relevante para tu proyecto.
