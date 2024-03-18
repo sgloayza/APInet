@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uIOSYhNv0g1Kmwb4g5/ilBoZsJzCML5oYdlp8KIKXY0yfTG3Ra7NTW78oUI+TirybIqU6AwWrf+zeCtRvBN6Og==",
+  "dgSpecHash": "xyH9KBDkx7Od10HJ7O68ehiySgHQElcIwYsqSe5cEZHDtH+4ceo3s+xWa5/HCCelxcJXzzAxyjIji1i7TN0zLg==",
   "success": true,
   "projectFilePath": "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\APInet.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sandra\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\Sandra\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\Sandra\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Sandra\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Sandra\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Sandra\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Sandra\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
