@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\APInet.csproj": {}
+    "G:\\PLATZI\\2. Curso de APIs con .NET\\Main\\APInet\\APInet.csproj": {}
   },
   "projects": {
-    "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\APInet.csproj": {
+    "G:\\PLATZI\\2. Curso de APIs con .NET\\Main\\APInet\\APInet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\APInet.csproj",
+        "projectUniqueName": "G:\\PLATZI\\2. Curso de APIs con .NET\\Main\\APInet\\APInet.csproj",
         "projectName": "APInet",
-        "projectPath": "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\APInet.csproj",
+        "projectPath": "G:\\PLATZI\\2. Curso de APIs con .NET\\Main\\APInet\\APInet.csproj",
         "packagesPath": "C:\\Users\\Sandra\\.nuget\\packages\\",
-        "outputPath": "G:\\PLATZI\\2. Curso de APIs con .NET\\algo\\APInet\\obj\\",
+        "outputPath": "G:\\PLATZI\\2. Curso de APIs con .NET\\Main\\APInet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
