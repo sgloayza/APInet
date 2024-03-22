@@ -8,13 +8,19 @@ public class HelloWorldController : ControllerBase
 {
     IHelloWorldService helloWorldService;
 
-    public HelloWorldController(IHelloWorldService helloWorld)
+    private readonly ILogger<HelloWorldController> _logger;
+
+    public HelloWorldController(IHelloWorldService helloWorld, ILogger<HelloWorldController> logger)
     {
+        _logger = logger;
+
         helloWorldService = helloWorld;
     }
 
     public IActionResult Get()
     {
+        _logger.LogInformation("Ejecutando el get de helloworld");
+
         return Ok(helloWorldService.GetHelloWorld());
     }
 }

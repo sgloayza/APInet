@@ -38,6 +38,7 @@ public class WeatherForecastController : ControllerBase
     [Route("[action]")]                 //http://localhost:5202/api/weatherforecast/get
     public IEnumerable<WeatherForecast> Get()
     {
+        _logger.LogDebug("Retornando la lista de weatherforecast");
         return ListWeatherForecast;
     }
 
