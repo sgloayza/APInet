@@ -7,8 +7,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//dependencia
-builder.Services.AddScoped<IHelloWorldService,HelloWorldService>();
+// Dependencias con servicios e interfaces
+//builder.Services.AddScoped<IHelloWorldService,HelloWorldService>();           //1era manera
+builder.Services.AddScoped<IHelloWorldService>(p=> new HelloWorldService());    //2da manera
 
 var app = builder.Build();
 
