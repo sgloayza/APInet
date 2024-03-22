@@ -18,7 +18,9 @@ El repositorio tiene dos ramas principales:
 ## Configuración
 Para ejecutar y probar la API en tu máquina local, asegúrate de tener instalado lo siguiente:
 - .NET Core/.NET 5 SDK
-- [Otras dependencias, si las hay]
+- EntityFramework Core v8.0.3
+- EntityFramework In Memory v8.0.3
+- EntityFramework Sqlserver v8.0.3
 
 ### Pasos para Ejecutar la API
 1. **Clonar el Repositorio**: 
