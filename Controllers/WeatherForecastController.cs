@@ -33,9 +33,9 @@ public class WeatherForecastController : ControllerBase
 
     //metodo get
     [HttpGet(Name = "GetWeatherForecast")]
-    [Route("Get/weatherforecast")]      //http://localhost:5202/api/weatherforecast/get/weatherforecast
-    [Route("Get/weatherforecast2")]     //http://localhost:5202/api/weatherforecast/get/weatherforecast2
-    [Route("[action]")]                 //http://localhost:5202/api/weatherforecast/get
+    // [Route("Get/weatherforecast")]      //http://localhost:5202/api/weatherforecast/get/weatherforecast
+    // [Route("Get/weatherforecast2")]     //http://localhost:5202/api/weatherforecast/get/weatherforecast2
+    // [Route("[action]")]                 //http://localhost:5202/api/weatherforecast/get
     public IEnumerable<WeatherForecast> Get()
     {
         _logger.LogDebug("Retornando la lista de weatherforecast");
