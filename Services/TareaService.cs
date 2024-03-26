@@ -31,9 +31,9 @@ public class TareaService : ITareaService
             tareaActual.Titulo = tarea.Titulo;
             tareaActual.Descripcion = tarea.Descripcion;
             tareaActual.PrioridadTarea = tarea.PrioridadTarea;
-            tareaActual.FechaCreacion = tarea.FechaCreacion;
-            tareaActual.Categoria = tarea.Categoria;
-            tareaActual.Resumen = tarea.Resumen;
+            // tareaActual.FechaCreacion = tarea.FechaCreacion;
+            // tareaActual.Categoria = tarea.Categoria;
+            // tareaActual.Resumen = tarea.Resumen;
 
             await context.SaveChangesAsync();
         }

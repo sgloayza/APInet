@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using webapi;
 using webapi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// Conexion con la bd
+builder.Services.AddSqlServer<TareasContext>("Data Source=DESKTOP-VR6TNQT\\SQLEXPRESS;Initial Catalog=TareasDb;user id=sa;password=contrasena;TrustServerCertificate=true");
+
 
 // Dependencias con servicios e interfaces
 builder.Services.AddScoped<IHelloWorldService,HelloWorldService>();           //1era manera
