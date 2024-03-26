@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APInet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31360bf72702b65ffd19c0424267bbdd339e8f4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3c82c539feefa9fc61a90f394517abfdb4264f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("APInet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APInet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
